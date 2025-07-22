@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "slug": "burnt-brick",
+    "title": "Burnt Brick",
+    "category": "Construction",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": true,
+    "createdAt": "2025-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-1-copyright.jpg",
+      "image-2-copyright.jpg",
+      "image-15-copyright.jpg",
+      "image-14-copyright.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "resuable-respirator",
+    "title": "Reuable Respirator",
+    "category": "Accessories",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": true,
+    "createdAt": "2022-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-2-copyright.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "cord-drill",
+    "title": "Cord Drill",
+    "category": "Power Tools",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": true,
+    "createdAt": "2024-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-14-copyright.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "circular-saw",
+    "title": "Circular Saw",
+    "category": "Power Tools",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": true,
+    "createdAt": "2025-05-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-3-copyright.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "copper-tube",
+    "title": "Copper Tube",
+    "category": "Plumbing",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": false,
+    "best_product": true,
+    "createdAt": "2021-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-4-copyright.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "kitchen-faucet",
+    "title": "Kitchen Faucet",
+    "category": "Plumbing",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": true,
+    "createdAt": "2023-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-13-copyright.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "work-gloves",
+    "title": "Work Gloves",
+    "category": "Plumbing",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product":false,
+    "createdAt": "2022-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-15-copyright.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "drill-driver",
+    "title": "Drill Driver",
+    "category": "Power Tools",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": false,
+    "createdAt": "2024-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-16-copyright.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "screwdriver-set",
+    "title": "ScrewDriver Set",
+    "category": "Mechanic",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": false,
+    "createdAt": "2021-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-17-copyright.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "smoke-detector",
+    "title": "Smoke Detector",
+    "category": "Accessories",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": false,
+    "best_product": false,
+    "createdAt": "2023-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-18-copyright.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "ear-muffs",
+    "title": "Ear Muffs",
+    "category": "Construction",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": false,
+    "createdAt": "2025-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-19-copyright.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "thermal-container",
+    "title": "Thermal Container",
+    "category": "Accessories",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": false,
+    "createdAt": "2021-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-20-copyright.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "measuring-tape",
+    "title": "Measuring Tape",
+    "category": "Construction",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": false,
+    "createdAt": "2022-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-21-copyright.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "slug":"planer-machine",
+    "title": "Planer Machine",
+    "category": "Power Tools",
+    "description": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "inStock": true,
+    "best_product": false,
+    "createdAt": "2022-07-21T13:10:47Z",
+    "tags": ["building", "exterior", "clay", "red-brick"],
+    "productImages": [
+      "image-22-copyright.jpg"
+    ]
+  }
+]

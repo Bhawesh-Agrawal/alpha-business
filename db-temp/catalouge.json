@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Adhesive",
+    "description": "A premium-grade adhesive engineered for heavy-duty applications. Offers strong, durable bonds across a wide range of surfaces including concrete, glass, and metal.",
+    "Promo": "Built to stick. Made to last.",
+    "image": "/powertool1.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Abhesive",
+    "description": "A versatile bonding agent commonly found in hardware shops, perfect for quick repairs and everyday fixes around the home and workshop.",
+    "Promo": "Stick fast, fix faster.",
+    "image": "/powertool2.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Power Tool",
+    "description": "High-performance power tools designed for precision and durability, perfect for professionals and DIY enthusiasts alike.",
+    "Promo": "Power through every project with ease.",
+    "image": "/powertool3.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Machinery",
+    "description": "Robust industrial machinery built to maximize productivity and withstand the toughest worksite conditions.",
+    "Promo": "Engineered for strength and reliability.",
+    "image": "/powertool4.jpeg"
+  }
+]
