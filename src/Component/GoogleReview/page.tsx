@@ -29,7 +29,7 @@ export default function GoogleReviews() {
         <div className="text-center mt-16">
           <p className="text-gray-600 mb-6">Join thousands of satisfied customers</p>
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg hover:shadow-xl">
-            View All Products
+            Visit Us
           </button>
         </div>
       </div>

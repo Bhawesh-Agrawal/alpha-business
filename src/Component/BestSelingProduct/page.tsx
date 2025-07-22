@@ -1,7 +1,6 @@
 import productsData from '../../../db-temp/product_catalouge.json';
-import ProductCard from '../ProductShop/page'; // Assuming this is the path to your ProductCard
+import ProductCard from '../ProductShop/page'; 
 
-// Define a type for your product data for type safety
 type Product = {
   id: number;
   slug: string;
@@ -15,7 +14,6 @@ type Product = {
   productImages: string[];
 };
 
-// Apply the 'Product' type to your imported data
 const products: Product[] = productsData;
 
 export default function BestSellingProduct() {

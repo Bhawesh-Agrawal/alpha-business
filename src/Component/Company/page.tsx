@@ -1,7 +1,6 @@
 'use client'
 
 import { HTMLAttributes, useEffect, useRef, useState } from 'react'
-import { useInView } from 'framer-motion'
 import { cn } from '../lib/utils'
 
 const LOGOS = [
@@ -21,29 +20,13 @@ const LOGOS = [
     './brand/thunderbolt.png'
 ];
 
-function splitArray<T>(array: Array<T>, numParts: number) {
-    const result: Array<Array<T>> = []
-
-    for (let i = 0; i < array.length; i++) {
-        const index = i % numParts
-        if (!result[index]) {
-            result[index] = []
-        }
-        result[index].push(array[i])
-    }
-
-    return result
-}
-
-function ReviewRow({
+function LogoRow({
     logos,
     className,
-    logoClassName,
-    msPerPixel = 0,
+    msPerPixel = 30,
 }: {
     logos: string[]
     className?: string
-    logoClassName?: (logoIndex: number) => string
     msPerPixel?: number
 }) {
     const rowRef = useRef<HTMLDivElement | null>(null)
@@ -65,55 +48,40 @@ function ReviewRow({
     }, [])
 
     return (
-        <div
-            ref={rowRef}
-            className={cn('flex animate-marquee-horizontal gap-8 sm:gap-10 md:gap-12 py-2 sm:py-2 md:py-1', className)}
-            style={{ '--marquee-duration': duration } as React.CSSProperties}
-        >
-            {logos.concat(logos).map((imgSrc, index) => (
-                <div
-                    key={index}
-                    // Make logos slightly larger
-                    className={cn(
-                        'animate-fade-in opacity-0 w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-56 lg:h-56 flex-shrink-0', // CHANGED
-                        logoClassName?.(index % logos.length)
-                    )}
-                    style={{
-                        animationDelay: `${(index % 6) * 0.1}s`,
-                    }}
-                >
-                    <img src={imgSrc} alt={`Logo ${index}`} className="w-full h-full object-contain" />
-                </div>
-            ))}
-        </div>
-    )
-}
-
-function ReviewGrid() {
-    const containerRef = useRef<HTMLDivElement | null>(null)
-    const isInView = useInView(containerRef, { once: true, amount: 0.3 })
-    const [row1, row2] = splitArray(LOGOS, 2)
-
-    return (
-        <div
-    ref={containerRef}
-    className="relative space-y-1 sm:space-y-1.5 md:space-y-2 overflow-hidden h-[15rem] sm:h-[17rem] md:h-[20rem] lg:h-[34rem] max-w-full mx-auto"
->
-
-            {isInView && (
-                <>
-                    <ReviewRow logos={row1} msPerPixel={10} />
-                    <ReviewRow logos={row2} msPerPixel={15} className="animate-marquee-horizontal-reverse" />
-                </>
-            )}
+        <div className="overflow-hidden">
+            <div
+                ref={rowRef}
+                className={cn(
+                    'flex animate-marquee-horizontal gap-8 sm:gap-10 md:gap-12 lg:gap-16 py-4 sm:py-6 md:py-8',
+                    className
+                )}
+                style={{ '--marquee-duration': duration } as React.CSSProperties}
+            >
+                {/* Double the logos for seamless scrolling */}
+                {logos.concat(logos).map((imgSrc, index) => (
+                    <div
+                        key={index}
+                        className="flex-shrink-0 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 flex items-center justify-center p-2 sm:p-3"
+                    >
+                        <img 
+                            src={imgSrc} 
+                            alt={`Partner logo ${(index % logos.length) + 1}`}
+                            className="w-full h-full object-contain"
+                        />
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }
 
 const Framework = () => {
     return (
-        <div className="relative mx-auto bg-slate-50 px-4 py-1 sm:px-6 lg:px-8 mt-20 sm:mt-24 md:mt-8 lg:mt-0">
-            <ReviewGrid />
+        <div className="w-full">
+            <div className="mx-2 sm:mx-4 lg:mx-2">
+                {/* Logo showcase */}
+                <LogoRow logos={LOGOS} />
+            </div>
         </div>
     )
 }

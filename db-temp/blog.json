@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "slug": "best-mechanical-keyboards-2025",
+    "title": "Top 5 Mechanical Keyboards to Buy in 2025",
+    "category": "hardware",
+    "description": "Discover the best mechanical keyboards for typing and gaming enthusiasts in 2025.",
+    "image": "https://plus.unsplash.com/premium_photo-1681426669771-d2113672a49b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "content": "Mechanical keyboards have taken the market by storm. In this article, we explore five of the best mechanical keyboards available in 2025, including models from Keychron, Ducky, Logitech, and more. We analyze their switches, build quality, connectivity, and price to help you make the best buying decision.",
+    "tags": ["keyboard", "hardware", "mechanical", "gadgets", "2025"],
+    "created": "2025-06-10T10:30:00Z",
+    "updated": "2025-06-15T14:45:00Z",
+    "author": {
+      "name": "Alex Turner",
+      "email": "alex.hardwareblog@example.com",
+      "profile_picture": "https://images.unsplash.com/photo-1603415526960-f8f86c80b56b"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "ssd-vs-hdd-which-to-choose",
+    "title": "SSD vs HDD: What's Best for Your Build?",
+    "category": "hardware",
+    "description": "A detailed comparison between SSD and HDD storage for modern hardware builds.",
+    "image": "https://images.unsplash.com/photo-1556745753-b2904692b3cd?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "content": "When building a new PC or upgrading storage, the debate between SSD and HDD still persists. This article breaks down performance differences, longevity, pricing, and ideal use cases for both types of drives. We also recommend top models for each category in 2025.",
+    "tags": ["storage", "ssd", "hdd", "pc-build", "hardware"],
+    "created": "2025-07-01T09:00:00Z",
+    "updated": "2025-07-05T11:15:00Z",
+    "author": {
+      "name": "Priya Mehta",
+      "email": "priya.hardwareexpert@example.com",
+      "profile_picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "gaming-laptops-under-1lakh-inr",
+    "title": "Best Gaming Laptops Under ₹1 Lakh in 2025",
+    "category": "hardware",
+    "description": "A curated list of budget-friendly yet powerful gaming laptops for Indian gamers.",
+    "image": "https://images.unsplash.com/photo-1602052793312-b99c2a9ee797?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "content": "Gaming on a budget? We’ve handpicked the best gaming laptops under ₹1,00,000 available in 2025. This includes machines featuring RTX 4050/4060 GPUs, Ryzen 7 and Intel i7 processors, and high-refresh-rate displays that offer solid performance without breaking the bank.",
+    "tags": ["gaming", "laptop", "budget", "india", "hardware"],
+    "created": "2025-06-20T13:30:00Z",
+    "updated": "2025-07-01T16:30:00Z",
+    "author": {
+      "name": "Ravi Kapoor",
+      "email": "ravi.techguru@example.com",
+      "profile_picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+    }
+  },
+  {
+    "id": 4,
+    "slug": "intel-vs-amd-2025",
+    "title": "Intel vs AMD in 2025: Which One Should You Choose?",
+    "category": "hardware",
+    "description": "The 2025 CPU showdown: Intel or AMD? We help you decide.",
+    "image": "https://images.unsplash.com/photo-1597423498219-04418210827d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "content": "Both Intel and AMD have released powerful chips in 2025 — the Intel Core Ultra series and AMD Ryzen 8000 series. In this in-depth comparison, we evaluate their gaming, productivity, and thermal performance to help you make the right choice for your next upgrade.",
+    "tags": ["cpu", "intel", "amd", "comparison", "hardware"],
+    "created": "2025-06-05T08:15:00Z",
+    "updated": "2025-06-28T12:00:00Z",
+    "author": {
+      "name": "Sophia Ray",
+      "email": "sophia.cpuqueen@example.com",
+      "profile_picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
+    }
+  }
+]
